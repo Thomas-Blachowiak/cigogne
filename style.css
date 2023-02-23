@@ -79,3 +79,9 @@ nav {
 #footer {
     background-color: lightgray;
 }
+#accordion {
+    padding: 30px;
+}
+#collapseOne, #collapseTwo, #collapseThree {
+    background-color: cornflowerblue;
+}
