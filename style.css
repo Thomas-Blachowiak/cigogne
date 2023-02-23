@@ -71,3 +71,11 @@ nav {
 #menu {
     background-color: lightgray;
 }
+#socialNetwork {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+#footer {
+    background-color: lightgray;
+}
