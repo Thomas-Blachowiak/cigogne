@@ -1,0 +1,57 @@
+html body {
+	font-size:100%;
+    font-family: Bradley Hand, cursive, sans-serif;
+    background-color: cornflowerblue;
+}
+@media screen and (min-width: 640px) {
+    .text {
+		font-size: 1.3rem;
+		  }
+	}
+.section > .container {
+    text-align: justify;
+    font-size: Bradley Hand, cursive, sans-serif;
+    padding: 80px;
+    margin: 100px;
+}
+#imgCigogne {
+    position: relative, center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+#imgCigogne2 {
+    position: relative, center;
+    float: left;
+    width: 350px;
+    height: 350px;
+}
+.animate-transform {
+    text-align: center;
+    animation: 5s goRight;
+    margin: 30px;
+}
+@keyframes goRight {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(30%);
+    }
+}
+#evenement .row {
+    border-bottom: 1px solid black;
+    text-align: justify;
+    text-align: center;
+}
+#titleTable{
+    font-weight: bold;
+    font-size: large;
+}
+footer {
+    margin: 50px;
+}
+nav {
+    margin: 60px;
+}
