@@ -8,7 +8,7 @@ html body {
 		font-size: 1.3rem;
 		  }
 	}
-.section > .container {
+.section .container {
     text-align: justify;
     font-size: Bradley Hand, cursive, sans-serif;
     padding: 80px;
@@ -47,11 +47,24 @@ html body {
 }
 #titleTable{
     font-weight: bold;
-    font-size: large;
+    font-size: 2rem;
 }
 footer {
-    margin: 50px;
+    margin: 30px;
 }
 nav {
     margin: 60px;
+}
+.title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
