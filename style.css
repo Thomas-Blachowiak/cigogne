@@ -68,3 +68,6 @@ nav {
     align-items: center;
     padding-top: 20px;
 }
+#menu {
+    background-color: lightgray;
+}
