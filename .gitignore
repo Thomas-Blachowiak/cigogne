@@ -1,2 +1,2 @@
-
-*.DS_Store
+# Masque le fichier .DS_Store
+.DS_Store
