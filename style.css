@@ -85,3 +85,6 @@ nav {
 #collapseOne, #collapseTwo, #collapseThree {
     background-color: cornflowerblue;
 }
+#presentation {
+    padding: 30px;
+}
