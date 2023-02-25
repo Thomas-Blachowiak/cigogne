@@ -14,6 +14,7 @@ html body {
     padding: 80px;
     margin: 100px;
 }
+/* Image de la cigogne, page d'accueil */
 #imgCigogne {
     position: relative, center;
     float: left;
@@ -21,12 +22,14 @@ html body {
     height: 200px;
     padding: 20px;
 }
+/* Image de la cigogne, page événements */
 #imgCigogne2 {
     position: relative, center;
     float: left;
     width: 350px;
     height: 350px;
 }
+
 .animate-transform {
     text-align: center;
     animation: 5s goRight;
@@ -40,6 +43,7 @@ html body {
         transform: translate(30%);
     }
 }
+
 #evenement .row {
     border-bottom: 1px solid black;
     text-align: justify;
