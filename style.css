@@ -32,7 +32,7 @@ html body {
 
 .animate-transform {
     text-align: center;
-    animation: 5s goRight;
+    animation: 5s goRight; 
     margin: 30px;
 }
 @keyframes goRight {
