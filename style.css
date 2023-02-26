@@ -61,7 +61,13 @@ nav {
     text-align: center;
     padding-top: 30px;
 }
-
+@media screen and (max-width: 576px){
+    iframe {
+        float:"normal";      
+        width:"280px";
+        height:"280px";
+    }
+}
 .form {
     width: 100vw;
     display: flex;
