@@ -29,13 +29,13 @@ html body {
     width: 350px;
     height: 350px;
 }
-.container {
+/*.container {
     display: block;
     justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center;
-}
+}$*/
 @media screen and (min-width: 768px) {
     .animate-transform {
         text-align: center;
@@ -50,16 +50,6 @@ html body {
             transform: translate(30%);
         }
     }
-}
-
-#evenement .row {
-    border-bottom: 1px solid black;
-    text-align: justify;
-    text-align: center;
-}
-#titleTable{
-    font-weight: bold;
-    font-size: 2rem;
 }
 footer {
     margin: 30px;
