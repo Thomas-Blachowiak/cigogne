@@ -8,12 +8,6 @@ html body {
 		font-size: 1.3rem;
 		  }
 	}
-.section .container {
-    text-align: justify;
-    font-size: Bradley Hand, cursive, sans-serif;
-    padding: 80px;
-    margin: 100px;
-}
 /* Image de la cigogne, page d'accueil */
 #imgCigogne {
     position: relative, center;
@@ -29,13 +23,7 @@ html body {
     width: 350px;
     height: 350px;
 }
-/*.container {
-    display: block;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-}$*/
+/*Ajout de media querie pour jouer l'animation à partir de 768px*/
 @media screen and (min-width: 768px) {
     .animate-transform {
         text-align: center;
@@ -76,7 +64,7 @@ nav {
     align-items: center;
     padding-top: 20px;
 }
-#menu {
+#menu, #footer{
     background-color: lightgray;
 }
 #socialNetwork {
@@ -84,15 +72,9 @@ nav {
     justify-content: flex-end;
     justify-content: space-evenly;
 }
-#footer {
-    background-color: lightgray;
-}
-#accordion {
+#accordion, #presentation{
     padding: 30px;
 }
 #collapseOne, #collapseTwo, #collapseThree {
     background-color: cornflowerblue;
-}
-#presentation {
-    padding: 30px;
 }
