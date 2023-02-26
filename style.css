@@ -64,8 +64,8 @@ nav {
 @media screen and (max-width: 576px){
     iframe {
         float:"normal";      
-        width:"200px";
-        height:"200px";
+        width:"150px";
+        height:"150px";
     }
 }
 .form {
