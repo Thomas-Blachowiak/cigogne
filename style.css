@@ -3,11 +3,11 @@ html body {
     font-family: Bradley Hand, cursive, sans-serif;
     background-color: cornflowerblue;
 }
-@media screen and (min-width: 640px) {
+/*@media screen and (min-width: 640px) {
     .text {
 		font-size: 1.3rem;
 		  }
-	}
+	}*/
 .section .container {
     text-align: justify;
     font-size: Bradley Hand, cursive, sans-serif;
