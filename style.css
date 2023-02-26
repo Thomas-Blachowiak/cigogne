@@ -29,18 +29,19 @@ html body {
     width: 350px;
     height: 350px;
 }
-
-.animate-transform {
-    text-align: center;
-    animation: 5s goRight; 
-    margin: 30px;
-}
-@keyframes goRight {
-    from {
-        transform: translate(0);
+@media screen and (min-width: 768px) {
+    .animate-transform {
+        text-align: center;
+        animation: 5s goRight; 
+        margin: 30px;
     }
-    to {
-        transform: translate(30%);
+    @keyframes goRight {
+        from {
+            transform: translate(0);
+        }
+        to {
+            transform: translate(30%);
+        }
     }
 }
 
