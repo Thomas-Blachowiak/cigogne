@@ -3,9 +3,6 @@ html body {
     font-family: Bradley Hand, cursive, sans-serif;
     background-color: cornflowerblue;
 }
-.text-center ~h1{
-    color: rgb(255, 102, 0);
-}
 @media screen and (min-width: 640px) {
     .text {
 		font-size: 1.3rem;
@@ -49,6 +46,7 @@ footer nav {
     text-align: center;
     padding-top: 30px;
 }
+/*Modification du iframe*/
 @media screen and (max-width: 576px){
     iframe {
         float:"normal";      
@@ -62,7 +60,15 @@ footer nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px;
+}
+@media screen and (min-width:576px) {
+    .form {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
 }
 #menu, #footer{
     background-color: lightgray;
