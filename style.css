@@ -46,6 +46,7 @@ footer nav {
     text-align: center;
     padding-top: 30px;
 }
+/*CSS du formulaire d'inscription*/
 .form {
     width: 100vw;
     display: flex;
@@ -62,6 +63,7 @@ footer nav {
     justify-content: flex-end;
     justify-content: space-evenly;
 }
+/*Ajout d'un background pour avoir la même couleur que le body*/
 #accordion, #presentation{
     padding: 30px;
 }
