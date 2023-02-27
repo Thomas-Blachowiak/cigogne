@@ -46,14 +46,6 @@ footer nav {
     text-align: center;
     padding-top: 30px;
 }
-/*Modification du iframe*/
-@media screen and (max-width: 576px){
-    iframe {
-        float:"normal";      
-        width:"100px";
-        height:"100px";
-    }
-}
 .form {
     width: 100vw;
     display: flex;
@@ -61,14 +53,6 @@ footer nav {
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-@media screen and (min-width:576px) {
-    .form {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-    }
 }
 #menu, #footer{
     background-color: lightgray;
